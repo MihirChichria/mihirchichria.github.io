@@ -266,15 +266,15 @@ var home = {
             a = a + 80;
         });
     },
-    initSection_blog:function() {
+    initSection_skills:function() {
 
-        var sectionBlog = jQuery('#section-skills');
+        var sectionSkills = jQuery('#section-skills');
 
-        sectionBlog.addClass('loaded');
+        sectionSkills.addClass('loaded');
 
         var a = 0;
 
-        sectionBlog.find("h2 .blast").each(function(){
+        sectionSkills.find("h2 .blast").each(function(){
 
             var el = jQuery(this);
 

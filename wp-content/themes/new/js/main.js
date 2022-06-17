@@ -51,57 +51,6 @@ app.page = {
             app.page.currentPageObj = app.home;
 
         }
-        //
-        if (document.querySelector('.js-page-work')) {
-
-            app.work = require('./app/app-project.js');
-            app.work.init();
-            app.page.currentPageObj = app.work;
-
-        }
-
-        if (document.querySelector('.js-page-skills')) {
-
-            app.skills = require('./app/app-skills.js');
-            app.skills.init();
-            app.page.currentPageObj = app.skills;
-
-        }
-
-        if (document.querySelector('.js-page-about')) {
-
-            app.about = require('./app/app-about.js');
-            app.about.init();
-            app.page.currentPageObj = app.about;
-
-        }
-
-        if (document.querySelector('.js-page-contact')) {
-
-            app.contact = require('./app/app-contact.js');
-            app.contact.init();
-            app.page.currentPageObj = app.contact;
-
-        }
-
-        //blog page/tag + single
-        if (document.querySelector('.js-page-blog')) {
-
-            app.blog = require('./app/app-blog.js');
-            app.blog.init();
-            app.page.currentPageObj = app.blog;
-
-        }
-
-        if (document.querySelector('.js-page-education')) {
-
-            app.text = require('./app/app-education.js');
-            app.text.init();
-            app.page.currentPageObj = app.text;
-        }
-
-
-
     },
     loadPage: function (rel, id) {
 
