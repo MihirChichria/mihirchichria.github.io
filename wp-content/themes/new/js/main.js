@@ -54,7 +54,7 @@ app.page = {
         //
         if (document.querySelector('.js-page-work')) {
 
-            app.work = require('./app/app-work.js');
+            app.work = require('./app/app-project.js');
             app.work.init();
             app.page.currentPageObj = app.work;
 
