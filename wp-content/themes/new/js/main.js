@@ -93,13 +93,6 @@ app.page = {
 
         }
 
-        if (document.querySelector('.js-page-text')) {
-
-            app.text = require('./app/app-text.js');
-            app.text.init();
-            app.page.currentPageObj = app.text;
-        }
-
         if (document.querySelector('.js-page-education')) {
 
             app.text = require('./app/app-education.js');
