@@ -6468,6 +6468,11 @@ select:-webkit-autofill:focus {
     display: block;
     position: relative
 }
+.contact-form button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
 
 .contact-form form {
     position: relative
