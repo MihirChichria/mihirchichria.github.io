@@ -5807,8 +5807,8 @@ h2 {
 .fake-big {
     font-family: font-file-82132;
     position: absolute;
-    top: -11rem;
-    left: 42vw;
+    top: -18rem;
+    left: 24vw;
     z-index: -1;
     font-size: 48rem;
     color: rgba(255, 255, 255, 0.04)
@@ -8888,7 +8888,7 @@ body.blog-page {
 
     .fake-big {
         font-size: 25rem;
-        top: 22rem
+        top: -7rem
     }
 
     .page-contact,
