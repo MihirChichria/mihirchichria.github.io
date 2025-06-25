@@ -7319,7 +7319,7 @@ input:focus:-ms-input-placeholder {
 .section-skills .fake-big {
     margin: auto;
     top: -33%;
-    left: 80px;
+    left: 150px;
     display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-align: center;
